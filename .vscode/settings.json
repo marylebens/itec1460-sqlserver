@@ -1,3 +1,16 @@
 {
-    "extensions.autoRestart": true
+	"mssql.connections": [
+		{
+			"authenticationType": "SqlLogin",
+			"connectTimeout": 30,
+			"applicationName": "vscode-mssql",
+			"server": "localhost,1433",
+			"profileName": "sql-container",
+			"port": "1433",
+			"user": "sa",
+			"password": "",
+			"savePassword": true
+		}
+	],
+	"sqlDatabaseProjects.dotnetSDK Location": "/usr/bin/"
 }
