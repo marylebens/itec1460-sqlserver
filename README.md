@@ -1,6 +1,6 @@
-# SQL Server Repository for ITEC2505-Visual C# .NET Programming 
+# SQL Server Repository for ITEC2505-Visual C# .NET Programming
 
-This repository is desgined for students to learn SQL using a Microsoft SQL Server database. This repo contains a Microsoft SQL Server database server that is running in a [Docker](https://www.docker.com) container.
+This repository is designed for students to learn SQL using a Microsoft SQL Server database. This repo contains a Microsoft SQL Server database server that is running in a [Docker](https://www.docker.com) container.
 
 ## Setting up the development container
 
@@ -13,7 +13,6 @@ Follow these steps to open this sample in a Codespaces:
 
 For more info, check out the [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/developing-online-with-codespaces/creating-a-codespace#creating-a-codespace).
 
-
 ## Things to try
 
 1. **Connect via SQLCMD and create a new database**
@@ -24,21 +23,17 @@ For more info, check out the [GitHub documentation](https://docs.github.com/en/f
     sqlcmd -S localhost -U sa -P P@ssw0rd -d master -i 01-CreateDatabase.sql
     ```
 
-    > Note: The SQL Server instance is created with user `sa` and password `P@ssw0rd`. Y
+    > Note: The SQL Server instance is created with user `sa` and password `P@ssw0rd`.
 
 2. **Explore your database with SQL Server extension**
 
     SQL Server extension allows you to explore your SQL Server and Azure SQL instances right within Visual Studio Code. Let's explore the database we have just created.
 
     - On the primary sidebar (on the left), click on **SQL Server** tab.
-    - The _SQL Server_ pane appears. You should already see `mssql-container` listed. Click on it
-    - Type the password listed previously
+    - The *SQL Server* pane appears. You should already see `mssql-container` listed. Click on it.
+    - Type the password listed previously.
     - The treeview will be populated with Database items. For example, you can explore the tables or even select the rows in the `dbo.Users` table created with the SQL Database project at the previous step.
-
-
 
 ## License
 
 Modified by Dr. Mary Lebens and Licensed under the MIT License. See LICENSE in the project root for license information.
-
-
