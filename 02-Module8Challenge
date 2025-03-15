@@ -15,7 +15,7 @@ for this assignment.
  
 Run and test your SQL code using the sqlcmd command in the Terminal.
 Here's an example: 
-sqlcmd -S localhost -U sa -P P@ssw0rd -d Northwind -Q "SELECT * FROM Customers;"
+`sqlcmd -S localhost -U sa -P P@ssw0rd -d Northwind -Q "SELECT * FROM Customers;"`
 */
 
 
