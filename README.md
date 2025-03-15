@@ -1,4 +1,4 @@
-# SQL Server Repository for ITEC2505-Visual C# .NET Programming 
+# SQL Server Repository for ITEC2505-Visual C# .NET Programming
 
 This repository is desgined for students to learn SQL using a Microsoft SQL Server database. This repo contains a Microsoft SQL Server database server that is running in a [Docker](https://www.docker.com) container.
 
