@@ -12,5 +12,6 @@
 			"savePassword": true
 		}
 	],
-	"sqlDatabaseProjects.dotnetSDK Location": "/usr/bin/"
+	"sqlDatabaseProjects.dotnetSDK Location": "/usr/bin/",
+	"DockerRun.DisableDockerrc": true
 }
